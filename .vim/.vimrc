@@ -17,4 +17,35 @@ set whichwrap=b,s,[,],<,>
 set backspace=indent,eol,start
 set wildmenu
 
-syntax on
+
+
+
+" NeoBundle setup
+set nocompatible
+filetype plugin indent off
+
+if has('vim_starting')
+    set runtimepath+=~/dotfiles/.vim/bundle/neobundle.vim
+    call neobundle#begin(expand('~/dotfiles/.vim/bundle/'))
+    call neobundle#end()
+endif 
+
+NeoBundleFetch 'Shougo/neobundle.vim'
+
+filetype plugin indent on
+filetype indent on
+
+call neobundle#begin(expand('~/dotfiles/.vim/bundle/'))
+" molokai
+NeoBundle 'tomasr/molokai'
+call neobundle#end()
+
+
+" Color setting
+syntax enable
+colorscheme molokai
+
+let g:molokai_original = 1
+
+
+":NeoBundleInstall
