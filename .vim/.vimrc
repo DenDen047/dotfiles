@@ -1,4 +1,5 @@
 
+set encoding=utf-8
 set fileencodings=iso-2022-jp,cp932,sjis,euc-jp,utf-8
 set nocompatible
 set title
@@ -23,7 +24,7 @@ set listchars=tab:>\
 set whichwrap=b,s,h,l,<,>,[,]
 set ruler
 " Color
-set background=dark
+" set background=dark
 " Search
 set incsearch
 set hlsearch
@@ -63,9 +64,12 @@ call neobundle#end()
 
 
 " Color setting
-syntax enable
+syntax on
 colorscheme molokai
-let g:molokai_original = 1
+set t_Co=256
+"let g:molokai_original = 1
+highlight ZenkakuSpace cterm=underline ctermfg=lightblue guibg=darkgray
+match ZenkakuSpace /　/
 
 
 " neocomplete {{{
