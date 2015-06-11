@@ -1,3 +1,5 @@
+
+set fileencodings=iso-2022-jp,cp932,sjis,euc-jp,utf-8
 set number
 set title
 set ambiwidth=double
@@ -14,8 +16,6 @@ set virtualedit=block
 set whichwrap=b,s,[,],<,>
 set backspace=indent,eol,start
 set wildmenu
-
-
 
 
 
