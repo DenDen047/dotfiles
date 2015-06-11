@@ -8,7 +8,7 @@ set expandtab
 set shiftwidth=4
 set smartindent
 set list
-set listchars=tab:»-,trail:-,extends:»,precedes:«,nbsp:%
+set listchars=tab:>\
 set nrformats-=octal
 set hidden
 set history=50
@@ -17,5 +17,4 @@ set whichwrap=b,s,[,],<,>
 set backspace=indent,eol,start
 set wildmenu
 
-
-
+syntax on
