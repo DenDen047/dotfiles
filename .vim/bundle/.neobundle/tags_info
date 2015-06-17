@@ -1,3 +1,8 @@
+auto-pairs
 molokai
-neocomplete
-tcomment_vim
+neobundle.vim
+neocomplete.vim
+neomru.vim
+nerdtree
+unite.vim
+vimproc
