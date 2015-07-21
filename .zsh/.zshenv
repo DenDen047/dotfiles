@@ -1,7 +1,8 @@
 #! /usr/bin/env zsh
 # -*- mode: sh; coding: utf-8; indent-tabs-mode: nil -*-
 #
-export LANG=ja_JP.UTF-8
+# export LANG=ja_JP.UTF-8
+export LANG=es_ES.UTF-8
 
 path=(
   {/usr/local,/usr,}{/bin,/sbin}(N-/)
