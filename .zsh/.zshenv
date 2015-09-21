@@ -37,3 +37,5 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 #PATH
 export PATH="/usr/local/bin:$PATH"
 export PYTHONPATH=/usr/local/lib/python2.7/site-packages:~/.virtualenvs/my_venv/lib/python2.7/site-packages:$PYTHONPATH
+export PYENV_ROOT="/usr/local/pyenv"
+export PATH="${PYENV_ROOT}/shims:${PYENV_ROOT}/bin:${PATH}"
