@@ -65,7 +65,6 @@
 :NeoCompleteEnable	neocomplete.txt	/*:NeoCompleteEnable*
 :NeoCompleteLock	neocomplete.txt	/*:NeoCompleteLock*
 :NeoCompleteSetFileType	neocomplete.txt	/*:NeoCompleteSetFileType*
-:NeoCompleteSyntaxMakeCache	neocomplete.txt	/*:NeoCompleteSyntaxMakeCache*
 :NeoCompleteTagMakeCache	neocomplete.txt	/*:NeoCompleteTagMakeCache*
 :NeoCompleteToggle	neocomplete.txt	/*:NeoCompleteToggle*
 :NeoCompleteUnlock	neocomplete.txt	/*:NeoCompleteUnlock*
@@ -214,8 +213,6 @@ g:neobundle_default_site	neobundle.txt	/*g:neobundle_default_site*
 g:neobundle_log_filename	neobundle.txt	/*g:neobundle_log_filename*
 g:neobundle_rm_command	neobundle.txt	/*g:neobundle_rm_command*
 g:neocomplete#auto_completion_start_length	neocomplete.txt	/*g:neocomplete#auto_completion_start_length*
-g:neocomplete#ctags_arguments	neocomplete.txt	/*g:neocomplete#ctags_arguments*
-g:neocomplete#ctags_command	neocomplete.txt	/*g:neocomplete#ctags_command*
 g:neocomplete#cursor_hold_i_time	neocomplete.txt	/*g:neocomplete#cursor_hold_i_time*
 g:neocomplete#data_directory	neocomplete.txt	/*g:neocomplete#data_directory*
 g:neocomplete#delimiter_patterns	neocomplete.txt	/*g:neocomplete#delimiter_patterns*
@@ -228,7 +225,6 @@ g:neocomplete#enable_camel_case	neocomplete.txt	/*g:neocomplete#enable_camel_cas
 g:neocomplete#enable_cursor_hold_i	neocomplete.txt	/*g:neocomplete#enable_cursor_hold_i*
 g:neocomplete#enable_fuzzy_completion	neocomplete.txt	/*g:neocomplete#enable_fuzzy_completion*
 g:neocomplete#enable_ignore_case	neocomplete.txt	/*g:neocomplete#enable_ignore_case*
-g:neocomplete#enable_insert_char_pre	neocomplete.txt	/*g:neocomplete#enable_insert_char_pre*
 g:neocomplete#enable_multibyte_completion	neocomplete.txt	/*g:neocomplete#enable_multibyte_completion*
 g:neocomplete#enable_smart_case	neocomplete.txt	/*g:neocomplete#enable_smart_case*
 g:neocomplete#fallback_mappings	neocomplete.txt	/*g:neocomplete#fallback_mappings*
@@ -254,7 +250,6 @@ g:neocomplete#sources#member#input_patterns	neocomplete.txt	/*g:neocomplete#sour
 g:neocomplete#sources#member#prefix_patterns	neocomplete.txt	/*g:neocomplete#sources#member#prefix_patterns*
 g:neocomplete#sources#omni#functions	neocomplete.txt	/*g:neocomplete#sources#omni#functions*
 g:neocomplete#sources#omni#input_patterns	neocomplete.txt	/*g:neocomplete#sources#omni#input_patterns*
-g:neocomplete#sources#syntax#min_keyword_length	neocomplete.txt	/*g:neocomplete#sources#syntax#min_keyword_length*
 g:neocomplete#sources#tags#cache_limit_size	neocomplete.txt	/*g:neocomplete#sources#tags#cache_limit_size*
 g:neocomplete#sources#vim#complete_functions	neocomplete.txt	/*g:neocomplete#sources#vim#complete_functions*
 g:neocomplete#tags_filter_patterns	neocomplete.txt	/*g:neocomplete#tags_filter_patterns*
@@ -268,6 +263,7 @@ g:neomru#file_mru_ignore_pattern	neomru.txt	/*g:neomru#file_mru_ignore_pattern*
 g:neomru#file_mru_limit	neomru.txt	/*g:neomru#file_mru_limit*
 g:neomru#file_mru_path	neomru.txt	/*g:neomru#file_mru_path*
 g:neomru#filename_format	neomru.txt	/*g:neomru#filename_format*
+g:neomru#follow_links	neomru.txt	/*g:neomru#follow_links*
 g:neomru#time_format	neomru.txt	/*g:neomru#time_format*
 g:neomru#update_interval	neomru.txt	/*g:neomru#update_interval*
 g:stderrencoding	vimproc.txt	/*g:stderrencoding*
@@ -313,7 +309,7 @@ g:unite_source_grep_default_opts	unite.txt	/*g:unite_source_grep_default_opts*
 g:unite_source_grep_encoding	unite.txt	/*g:unite_source_grep_encoding*
 g:unite_source_grep_recursive_opt	unite.txt	/*g:unite_source_grep_recursive_opt*
 g:unite_source_grep_search_word_highlight	unite.txt	/*g:unite_source_grep_search_word_highlight*
-g:unite_source_history_save_clipboard	unite.txt	/*g:unite_source_history_save_clipboard*
+g:unite_source_history_save_registers	unite.txt	/*g:unite_source_history_save_registers*
 g:unite_source_history_yank_enable	unite.txt	/*g:unite_source_history_yank_enable*
 g:unite_source_history_yank_file	unite.txt	/*g:unite_source_history_yank_file*
 g:unite_source_history_yank_limit	unite.txt	/*g:unite_source_history_yank_limit*
@@ -418,6 +414,7 @@ neobundle-options-depends	neobundle.txt	/*neobundle-options-depends*
 neobundle-options-directory	neobundle.txt	/*neobundle-options-directory*
 neobundle-options-disabled	neobundle.txt	/*neobundle-options-disabled*
 neobundle-options-external_commands	neobundle.txt	/*neobundle-options-external_commands*
+neobundle-options-fetch	neobundle.txt	/*neobundle-options-fetch*
 neobundle-options-focus	neobundle.txt	/*neobundle-options-focus*
 neobundle-options-force	neobundle.txt	/*neobundle-options-force*
 neobundle-options-gui	neobundle.txt	/*neobundle-options-gui*
@@ -428,7 +425,6 @@ neobundle-options-name	neobundle.txt	/*neobundle-options-name*
 neobundle-options-overwrite	neobundle.txt	/*neobundle-options-overwrite*
 neobundle-options-recipe	neobundle.txt	/*neobundle-options-recipe*
 neobundle-options-regular_name	neobundle.txt	/*neobundle-options-regular_name*
-neobundle-options-resettable	neobundle.txt	/*neobundle-options-resettable*
 neobundle-options-rtp	neobundle.txt	/*neobundle-options-rtp*
 neobundle-options-script_type	neobundle.txt	/*neobundle-options-script_type*
 neobundle-options-site	neobundle.txt	/*neobundle-options-site*
@@ -459,7 +455,9 @@ neocomplete#custom#source()	neocomplete.txt	/*neocomplete#custom#source()*
 neocomplete#custom_source()	neocomplete.txt	/*neocomplete#custom_source()*
 neocomplete#disable_default_dictionary()	neocomplete.txt	/*neocomplete#disable_default_dictionary()*
 neocomplete#get_context_filetype()	neocomplete.txt	/*neocomplete#get_context_filetype()*
+neocomplete#get_default_matchers()	neocomplete.txt	/*neocomplete#get_default_matchers()*
 neocomplete#initialize()	neocomplete.txt	/*neocomplete#initialize()*
+neocomplete#set_default_matchers()	neocomplete.txt	/*neocomplete#set_default_matchers()*
 neocomplete#smart_close_popup()	neocomplete.txt	/*neocomplete#smart_close_popup()*
 neocomplete#start_manual_complete()	neocomplete.txt	/*neocomplete#start_manual_complete()*
 neocomplete#undo_completion()	neocomplete.txt	/*neocomplete#undo_completion()*
@@ -531,7 +529,6 @@ neocomplete-source-dictionary	neocomplete.txt	/*neocomplete-source-dictionary*
 neocomplete-source-file	neocomplete.txt	/*neocomplete-source-file*
 neocomplete-source-member	neocomplete.txt	/*neocomplete-source-member*
 neocomplete-source-omni	neocomplete.txt	/*neocomplete-source-omni*
-neocomplete-source-syntax	neocomplete.txt	/*neocomplete-source-syntax*
 neocomplete-source-tag	neocomplete.txt	/*neocomplete-source-tag*
 neocomplete-sources	neocomplete.txt	/*neocomplete-sources*
 neocomplete-sources-COMMANDS	neocomplete.txt	/*neocomplete-sources-COMMANDS*
@@ -540,6 +537,7 @@ neocomplete-sources-neco-vim	neocomplete.txt	/*neocomplete-sources-neco-vim*
 neocomplete-sources-neosnippet	neocomplete.txt	/*neocomplete-sources-neosnippet*
 neocomplete-sources-ultisnips	neocomplete.txt	/*neocomplete-sources-ultisnips*
 neocomplete-sources-variables	neocomplete.txt	/*neocomplete-sources-variables*
+neocomplete-syntax	neocomplete.txt	/*neocomplete-syntax*
 neocomplete-unite-source-neocomplete	neocomplete.txt	/*neocomplete-unite-source-neocomplete*
 neocomplete-unite-sources	neocomplete.txt	/*neocomplete-unite-sources*
 neocomplete-user-sources	neocomplete.txt	/*neocomplete-user-sources*
@@ -639,6 +637,7 @@ unite-filter-attribute-filter	unite.txt	/*unite-filter-attribute-filter*
 unite-filter-attribute-name	unite.txt	/*unite-filter-attribute-name*
 unite-filter-attribute-pattern	unite.txt	/*unite-filter-attribute-pattern*
 unite-filter-attributes	unite.txt	/*unite-filter-attributes*
+unite-filter-converter_abbr_word	unite.txt	/*unite-filter-converter_abbr_word*
 unite-filter-converter_default	unite.txt	/*unite-filter-converter_default*
 unite-filter-converter_file_directory	unite.txt	/*unite-filter-converter_file_directory*
 unite-filter-converter_full_path	unite.txt	/*unite-filter-converter_full_path*
@@ -664,6 +663,7 @@ unite-filter-sorter_length	unite.txt	/*unite-filter-sorter_length*
 unite-filter-sorter_nothing	unite.txt	/*unite-filter-sorter_nothing*
 unite-filter-sorter_rank	unite.txt	/*unite-filter-sorter_rank*
 unite-filter-sorter_reverse	unite.txt	/*unite-filter-sorter_reverse*
+unite-filter-sorter_selecta	unite.txt	/*unite-filter-sorter_selecta*
 unite-filter-sorter_word	unite.txt	/*unite-filter-sorter_word*
 unite-filter-variables	unite.txt	/*unite-filter-variables*
 unite-filters	unite.txt	/*unite-filters*
@@ -729,6 +729,7 @@ unite-options-input	unite.txt	/*unite-options-input*
 unite-options-keep-focus	unite.txt	/*unite-options-keep-focus*
 unite-options-log	unite.txt	/*unite-options-log*
 unite-options-marked-icon	unite.txt	/*unite-options-marked-icon*
+unite-options-match-input	unite.txt	/*unite-options-match-input*
 unite-options-max-multi-lines	unite.txt	/*unite-options-max-multi-lines*
 unite-options-multi-line	unite.txt	/*unite-options-multi-line*
 unite-options-no-	unite.txt	/*unite-options-no-*
@@ -789,7 +790,6 @@ unite-source-attribute-hooks-on_post_filter	unite.txt	/*unite-source-attribute-h
 unite-source-attribute-hooks-on_pre_filter	unite.txt	/*unite-source-attribute-hooks-on_pre_filter*
 unite-source-attribute-hooks-on_pre_init	unite.txt	/*unite-source-attribute-hooks-on_pre_init*
 unite-source-attribute-hooks-on_syntax	unite.txt	/*unite-source-attribute-hooks-on_syntax*
-unite-source-attribute-is_grouped	unite.txt	/*unite-source-attribute-is_grouped*
 unite-source-attribute-is_listed	unite.txt	/*unite-source-attribute-is_listed*
 unite-source-attribute-is_volatile	unite.txt	/*unite-source-attribute-is_volatile*
 unite-source-attribute-matchers	unite.txt	/*unite-source-attribute-matchers*
