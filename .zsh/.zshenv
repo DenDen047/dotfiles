@@ -32,10 +32,12 @@ function _auto_zcompile_source  () {
 ### duplicate cleaning
 typeset -gxU path cdpath fpath manpath ld_library_path include
 
-export HOMEBREW_CASK_OPTS="--appdir=/Applications"
-
 #PATH
-export PATH="/usr/local/bin:$PATH"
-export PYTHONPATH=/usr/local/lib/python2.7/site-packages:~/.virtualenvs/my_venv/lib/python2.7/site-packages:$PYTHONPATH
-export PYENV_ROOT="/usr/local/pyenv"
-export PATH="${PYENV_ROOT}/shims:${PYENV_ROOT}/bin:${PATH}"
+export PYENV_ROOT=$HOME/.pyenv
+export PATH=$PYENV_ROOT/bin:$PATH
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
+export LANG="en_US.UTF-8"
+export LC_CTYPE="en_US.UTF-8"
+export LC_ALL="en_US.UTF-8"
