@@ -33,10 +33,10 @@ function _auto_zcompile_source  () {
 typeset -gxU path cdpath fpath manpath ld_library_path include
 
 #PATH
-export PYENV_ROOT=$HOME/.pyenv
-export PATH=$PYENV_ROOT/bin:$PATH
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
+# export PYENV_ROOT=$HOME/.pyenv
+# export PATH=$PYENV_ROOT/bin:$PATH
+# eval "$(pyenv init -)"
+# eval "$(pyenv virtualenv-init -)"
 
 export LANG="en_US.UTF-8"
 export LC_CTYPE="en_US.UTF-8"
