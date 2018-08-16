@@ -1,8 +1,5 @@
 #! /usr/bin/env zsh
 # -*- mode: sh; coding: utf-8; indent-tabs-mode: nil -*-
-#
-# export LANG=ja_JP.UTF-8
-export LANG=es_ES.UTF-8
 
 path=(
   {/usr/local,/usr,}{/bin,/sbin}(N-/)
@@ -35,6 +32,7 @@ typeset -gxU path cdpath fpath manpath ld_library_path include
 #PATH
 alias python=python3
 
+# export LANG=ja_JP.UTF-8
 export LANG="en_US.UTF-8"
 export LC_CTYPE="en_US.UTF-8"
 export LC_ALL="en_US.UTF-8"
