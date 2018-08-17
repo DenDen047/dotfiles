@@ -31,6 +31,7 @@ typeset -gxU path cdpath fpath manpath ld_library_path include
 
 #PATH
 alias python=python3
+alias pip="python3 -m pip"
 
 # export LANG=ja_JP.UTF-8
 export LANG="en_US.UTF-8"
