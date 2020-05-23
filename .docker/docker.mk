@@ -1,3 +1,6 @@
+# Docker Makefile
+# usage: https://qiita.com/takara@github/items/7beee975e6df7ce53755
+
 all_container=`docker ps -a -q`
 active_container=`docker ps -q`
 images=`docker images | awk '/^<none>/ { print $$3 }'`
