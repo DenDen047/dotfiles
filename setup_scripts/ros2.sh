@@ -37,6 +37,9 @@ echo -e "\n"
 # ssh -T git@github.com
 # echo -e "\n"
 
+echo "Python3 setting..."
+sudo ln -s $(which python3) /usr/bin/python
+
 echo "create symbolic link..."
 if [ -e ~/.bashrc ]; then
     mv ~/.bashrc ~/dotfiles/.bashrc.bak
