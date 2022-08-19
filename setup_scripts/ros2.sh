@@ -3,6 +3,7 @@
 echo "update..."
 sudo apt-get update
 sudo apt-get upgrade -y
+sudo apt autoremove -y
 echo -e "\n"
 
 echo "install some softwares..."
