@@ -118,3 +118,5 @@ fi
 
 # ROS settings
 export LANG=en_US.UTF-8
+source /opt/ros/foxy/setup.bash
+source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
