@@ -8,7 +8,6 @@ echo -e "\n"
 echo "install some softwares..."
 sudo apt-get install -y vim
 sudo apt-get install -y git
-sudo apt-get install -y zsh
 sudo apt-get install -y tmux
 echo -e "\n"
 
@@ -27,7 +26,6 @@ git config --list
 echo "=================="
 echo -e "\n"
 
-
 # echo "SSHkey setting..."
 # ssh-keygen -t rsa -b 4096 -C "sh.mn.nat@gmail.com"
 # clip < ~/.ssh/id_rsa.pub
@@ -39,8 +37,11 @@ echo -e "\n"
 # echo -e "\n"
 
 echo "create symbolic link..."
+if [ -e ~/.bashrc ]; then
+    mv ~/.bashrc ~/dotfiles/.bashrc.bak
+fi
+ln -s ~/dotfiles/.bashrc ~/.bashrc
 ln -s ~/dotfiles/.vimrc ~/.vimrc
-ln -s ~/dotfiles/.zshenv ~/.zshenv
 ln -s ~/dotfiles/.tmux.conf ~/.tmux.conf
 ln -s ~/dotfiles/.ssh/config ~/.ssh/config
 
@@ -48,9 +49,6 @@ ln -s ~/dotfiles/.ssh/config ~/.ssh/config
 # ====== VIM =======
 rm -rf ~/dotfiles/.vim/bundle/
 mkdir ~/dotfiles/.vim/bundle
-
-# ====== ZSH =======
-chsh -s /bin/zsh
 
 
 echo "Finish!!!"
