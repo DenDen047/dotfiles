@@ -38,16 +38,16 @@ echo -e "\n"
 # echo -e "\n"
 
 echo "Python3 setting..."
-sudo ln -s $(which python3) /usr/bin/python
+sudo ln -sf $(which python3) /usr/bin/python
 
 echo "create symbolic link..."
 if [ -e ~/.bashrc ]; then
     mv ~/.bashrc ~/dotfiles/.bashrc.bak
 fi
-ln -s ~/dotfiles/.bashrc ~/.bashrc
-ln -s ~/dotfiles/.vimrc ~/.vimrc
-ln -s ~/dotfiles/.tmux.conf ~/.tmux.conf
-ln -s ~/dotfiles/.ssh/config ~/.ssh/config
+ln -sf ~/dotfiles/.bashrc ~/.bashrc
+ln -sf ~/dotfiles/.vimrc ~/.vimrc
+ln -sf ~/dotfiles/.tmux.conf ~/.tmux.conf
+ln -sf ~/dotfiles/.ssh/config ~/.ssh/config
 
 
 # ====== VIM =======
