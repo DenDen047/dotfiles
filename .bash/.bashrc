@@ -119,8 +119,9 @@ fi
 # ROS settings
 export LANG=en_US.UTF-8
 source /opt/ros/foxy/setup.bash
+# colcon
+source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
 # packages
 source ~/ros2_ws/M2S2/install/setup.bash
 source ~/ros2_ws/livox_ros2_driver/install/setup.bash
-# colcon
-source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
+source ~/ros2_ws/WildPose_v1.1/install/setup.bash
