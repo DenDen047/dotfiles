@@ -115,3 +115,12 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# ROS settings
+export LANG=en_US.UTF-8
+source /opt/ros/foxy/setup.bash
+# colcon
+source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
+# packages
+source ~/ros2_ws/livox_ros2_driver/install/setup.bash
+source ~/ros2_ws/ximea_ros2_cam/install/setup.bash
