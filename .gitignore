@@ -76,3 +76,4 @@ $RECYCLE.BIN/
 ./.vim/bundle
 
 .vscode/sftp.json
+*.bak
