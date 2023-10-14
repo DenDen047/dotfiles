@@ -37,8 +37,8 @@ echo -e "\n"
 # ssh -T git@github.com
 # echo -e "\n"
 
-echo "Python3 setting..."
-sudo ln -sf $(which python3) /usr/bin/python
+# echo "Python3 setting..."
+# sudo ln -sf $(which python3) /usr/bin/python
 
 echo "create symbolic link..."
 if [ -e ~/.bashrc ]; then

@@ -118,9 +118,14 @@ fi
 
 # ROS settings
 export LANG=en_US.UTF-8
-source /opt/ros/foxy/setup.bash
+source /opt/ros/humble/setup.bash
 # colcon
 source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
 # packages
+export GENICAM_GENTL64_PATH=/opt/XIMEA/lib/
+export RMW_IMPLEMENTATION=rmw_ecal_dynamic_cpp
 source ~/ros2_ws/livox_ros2_driver/install/setup.bash
 source ~/ros2_ws/ximea_ros2_cam/install/setup.bash
+#source ~/ros2_ws/rosidl_typesupport_protobuf/install/setup.bash
+source ~/ros2_ws/rmw_ecal/install/setup.bash
+source ~/Documents/Projects/WildPose_v1.2/wildpose/install/setup.bash
