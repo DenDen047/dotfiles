@@ -27,16 +27,6 @@ git config --list
 echo "=================="
 echo -e "\n"
 
-# echo "SSHkey setting..."
-# ssh-keygen -t rsa -b 4096 -C "sh.mn.nat@gmail.com"
-# clip < ~/.ssh/id_rsa.pub
-# echo -e "\n"
-# echo "Please paste id_rsa.pub to GitHub"
-# echo -n "OK? [Y/n] "
-# read check
-# ssh -T git@github.com
-# echo -e "\n"
-
 # echo "Python3 setting..."
 # sudo ln -sf $(which python3) /usr/bin/python
 
