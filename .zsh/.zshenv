@@ -35,6 +35,7 @@ alias pip="python3 -m pip"
 export PATH=/usr/local/cuda-12.4/bin:$PATH
 export LD_LIBRARY_PATH=/usr/local/cuda-12.4/lib64:$LD_LIBRARY_PATH
 export PATH=$PATH:/snap/bin
+alias tensorboard='python3 -m tensorboard.main'
 
 # export LANG=ja_JP.UTF-8
 export LANG="en_US.UTF-8"
