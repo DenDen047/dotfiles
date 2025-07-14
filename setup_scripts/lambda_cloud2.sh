@@ -4,6 +4,7 @@
 # - Ubuntu 22.04
 # - NVIDIA GPU
 # - Docker
+# - Python 3.10
 
 # Nvidia-Docker after reboot
 # https://lambda.ai/blog/set-up-a-tensorflow-gpu-docker-container-using-lambda-stack-dockerfile

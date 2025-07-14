@@ -9,7 +9,12 @@
 sudo apt update
 sudo apt upgrade -y
 
-# Docker setup
+# ====== Guest Agent of Lambda Cloud =======
+# https://docs.lambda.ai/public-cloud/guest-agent/
+curl -L https://lambdalabs-guest-agent.s3.us-west-2.amazonaws.com/scripts/install.sh | sudo bash
+sudo systemctl --no-pager status lambda-guest-agent*
+
+# ====== Docker setup =======
 sudo usermod -aG docker $USER
 
 # ====== NVIDIA-DOCKER =======
