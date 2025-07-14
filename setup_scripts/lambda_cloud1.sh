@@ -11,7 +11,6 @@ sudo apt upgrade -y
 
 # Docker setup
 sudo usermod -aG docker $USER
-sudo docker login
 
 # ====== NVIDIA-DOCKER =======
 # https://lambda.ai/blog/set-up-a-tensorflow-gpu-docker-container-using-lambda-stack-dockerfile
