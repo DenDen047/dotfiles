@@ -2,7 +2,7 @@
 
 This is dotfiles for myself.
 
-## Lambda Cloud
+## [Lambda Cloud](https://lambda.ai/)
 
 Connect to a Lambda Cloud instance through SSH.
 ```bash
