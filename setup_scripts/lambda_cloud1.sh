@@ -15,6 +15,7 @@ sudo docker login
 
 # ====== NVIDIA-DOCKER =======
 # https://lambda.ai/blog/set-up-a-tensorflow-gpu-docker-container-using-lambda-stack-dockerfile
+# https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html
 LAMBDA_REPO=$(mktemp) && \
 	wget -O${LAMBDA_REPO} https://lambdalabs.com/static/misc/lambda-stack-repo.deb && \
 	sudo dpkg -i ${LAMBDA_REPO} && rm -f ${LAMBDA_REPO} && \
