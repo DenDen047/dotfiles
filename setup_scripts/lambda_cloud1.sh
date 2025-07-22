@@ -7,7 +7,7 @@
 
 # Update
 sudo apt update
-sudo apt upgrade -y
+# sudo apt upgrade -y
 
 # ====== Guest Agent of Lambda Cloud =======
 # https://docs.lambda.ai/public-cloud/guest-agent/
