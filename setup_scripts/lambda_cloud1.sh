@@ -14,6 +14,9 @@ sudo apt update
 curl -L https://lambdalabs-guest-agent.s3.us-west-2.amazonaws.com/scripts/install.sh | sudo bash
 sudo systemctl --no-pager status lambda-guest-agent*
 
+# ====== uv =======
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
 # ====== Docker setup =======
 sudo usermod -aG docker $USER
 
