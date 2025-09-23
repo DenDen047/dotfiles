@@ -37,7 +37,8 @@ rm -rf ~/dotfiles/.vim/bundle/
 mkdir ~/dotfiles/.vim/bundle
 
 # ====== ZSH =======
-chsh -s /bin/zsh
+chsh -s /usr/bin/zsh
 
 
-echo "Finish!!!"
+echo "Finish!! Reboot..."
+sudo reboot
